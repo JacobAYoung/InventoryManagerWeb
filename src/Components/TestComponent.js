@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
-function TestComponent(props) {
-    console.log(props)
+function TestComponent() {
+    // console.log()
   return (
-  <div>{props.text}</div>
+    <Button color="primary">Hello World</Button>
   );
 }
 
